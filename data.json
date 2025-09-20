@@ -1,0 +1,231 @@
+{
+  "tutorials": [
+    {
+      "id": 1,
+      "slug": "dasar-html",
+      "title": "Dasar HTML: Struktur Halaman",
+      "description": "Semantic tags & fondasi dokumen yang rapi dan aksesibel.",
+      "image": "https://images.unsplash.com/photo-1518779578993-ec3579fee39f?q=80&w=1200&auto=format&fit=crop",
+      "level": "Pemula",
+      "tags": [
+        "HTML",
+        "Semantic",
+        "Web"
+      ],
+      "size": "span-2",
+      "url": "pages/dasar-html.html",
+      "steps": [
+        {
+          "title": "Tag Dasar",
+          "desc": "Elemen <html>, <head>, <body>, meta.",
+          "slug": "tag-dasar"
+        },
+        {
+          "title": "Semantic Sections",
+          "desc": "header/main/section/article/footer.",
+          "slug": "semantic-sections"
+        },
+        {
+          "title": "Teks & Link",
+          "desc": "Heading, paragraf, tautan, list.",
+          "slug": "text-link"
+        },
+        {
+          "title": "Gambar & Alt",
+          "desc": "Atribut alt & praktik baik.",
+          "slug": "img-alt"
+        },
+        {
+          "title": "Form Dasar",
+          "desc": "Input, label, tombol submit.",
+          "slug": "basic-form"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "css-grid",
+      "title": "CSS Modern: Grid & Flexbox",
+      "description": "Layout responsif dengan Grid/Flex; auto-fit, minmax, gap.",
+      "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1200&auto=format&fit=crop",
+      "level": "Menengah",
+      "tags": [
+        "CSS",
+        "Grid",
+        "Flexbox",
+        "Responsive"
+      ],
+      "size": "span-3",
+      "url": "pages/css-grid.html",
+      "steps": [
+        {
+          "title": "Dasar Flex",
+          "desc": "Axis, wrap, justify, align.",
+          "slug": "flex-basics"
+        },
+        {
+          "title": "Dasar Grid",
+          "desc": "Track, area, gap.",
+          "slug": "grid-basics"
+        },
+        {
+          "title": "Responsive Grid",
+          "desc": "auto-fit/minmax/fr.",
+          "slug": "responsive-grid"
+        },
+        {
+          "title": "Card Layout",
+          "desc": "Membangun kartu responsif.",
+          "slug": "card-layout"
+        },
+        {
+          "title": "Tips Debug",
+          "desc": "Outline & grid overlays.",
+          "slug": "debug-tips"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "js-dom",
+      "title": "JavaScript DOM: Render dari JSON",
+      "description": "Fetch data dan render UI dinamis via template element.",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1200&auto=format&fit=crop",
+      "level": "Pemula",
+      "tags": [
+        "JavaScript",
+        "DOM",
+        "Fetch"
+      ],
+      "size": "span-1",
+      "url": "pages/js-dom.html",
+      "steps": [
+        {
+          "title": "Fetch API",
+          "desc": "Ambil data & error handling.",
+          "slug": "fetch-api"
+        },
+        {
+          "title": "Template Element",
+          "desc": "Clone node & isi konten.",
+          "slug": "template-element"
+        },
+        {
+          "title": "Event & State",
+          "desc": "Search, filter, re-render.",
+          "slug": "event-state"
+        },
+        {
+          "title": "Modularisasi",
+          "desc": "Pisahkan data & view.",
+          "slug": "modularization"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "aksesibilitas",
+      "title": "Aksesibilitas Web Dasar (a11y)",
+      "description": "WAI-ARIA ringan, fokus jelas, dan kontras yang baik.",
+      "image": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?q=80&w=1200&auto=format&fit=crop",
+      "level": "Menengah",
+      "tags": [
+        "A11y",
+        "ARIA",
+        "UX"
+      ],
+      "size": "span-2",
+      "url": "pages/aksesibilitas.html",
+      "steps": [
+        {
+          "title": "Landmark",
+          "desc": "header/main/nav/footer.",
+          "slug": "landmarks"
+        },
+        {
+          "title": "Fokus",
+          "desc": "Outline & manajemen fokus.",
+          "slug": "focus"
+        },
+        {
+          "title": "Kontras",
+          "desc": "Cek rasio kontras WCAG.",
+          "slug": "contrast"
+        },
+        {
+          "title": "ARIA Dasar",
+          "desc": "role/aria-label/aria-live.",
+          "slug": "aria-basics"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "optimasi",
+      "title": "Optimasi Performa: Lazy Image",
+      "description": "Lazy load, preconnect, dan strategi caching ringan.",
+      "image": "https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=1200&auto=format&fit=crop",
+      "level": "Lanjutan",
+      "tags": [
+        "Performance",
+        "LazyLoad"
+      ],
+      "size": "span-1",
+      "url": "pages/optimasi.html",
+      "steps": [
+        {
+          "title": "Lazy Loading",
+          "desc": "loading='lazy' + IO.",
+          "slug": "lazy-loading"
+        },
+        {
+          "title": "Preconnect",
+          "desc": "Optimalkan koneksi awal.",
+          "slug": "preconnect"
+        },
+        {
+          "title": "Compress",
+          "desc": "Format/kompresi gambar.",
+          "slug": "compression"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "slug": "komponen",
+      "title": "Komponen Kartu Reusable",
+      "description": "Mini design system—variant, sizing, dan theme token.",
+      "image": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1200&auto=format&fit=crop",
+      "level": "Lanjutan",
+      "tags": [
+        "Component",
+        "Refactor",
+        "Design System"
+      ],
+      "size": "span-2",
+      "url": "pages/komponen.html",
+      "steps": [
+        {
+          "title": "API Props",
+          "desc": "Rancang properti yang stabil.",
+          "slug": "api-props"
+        },
+        {
+          "title": "Variant & Size",
+          "desc": "Skala & variasi visual.",
+          "slug": "variant-size"
+        },
+        {
+          "title": "Theme Token",
+          "desc": "Gunakan CSS variables.",
+          "slug": "theme-tokens"
+        },
+        {
+          "title": "Doc & Demo",
+          "desc": "Contoh & dokumentasi.",
+          "slug": "docs-demo"
+        }
+      ]
+    }
+  ]
+}
